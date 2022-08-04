@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap Restaurant Remodel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Some custom styles to beautify this example */
+        p{
+            padding: 50px;
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            background: #dbdfe5;
+        }
+    </style>
+</head>
+<body>
+     <!-- Container with dark background and white text color -->
+     <div class="container bg-dark text-white text-center border py-3 my-3">
+        <h1 class="text-uppercase fw-bold" style="text-shadow: 1px 3px 3px #827f7e;">Huynh Restaurant</h1>
+        <h2 class="fw-lighter">Authentic Vietnamese Cuisine</h2>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-sm-3" >
+                    <div>
+                        <nav class="nav justify-content-left" > <p class="bg-dark">
+                            <a href="#" class="nav-item nav-link text-white">Home</a>
+                            <a href="#" class="nav-item nav-link text-white">Location</a>
+                            <a href="#" class="nav-item nav-link text-white">Map</a>
+                            <a href="index.html" class="nav-item nav-link text-white active">Gallery</a>
+                            <a href="#" class="nav-item nav-link text-white">Reviews</a>
+                            <a href="#" class="nav-item nav-link text-white">Email</a>
+                            <a href="#" class="nav-item nav-link">FAQ</a>
+                            <a href="#" class="nav-item nav-link text-white">Links</a>
+                            <a href="#" class="nav-item nav-link text-white">Lunch</a>
+                            <a href="#" class="nav-item nav-link text-white">Dinner</a>
+                            <a href="#" class="nav-item nav-link text-white">Doordash</a>
+                            <a href="#" class="nav-item nav-link text-white">Pick-up</a></p>
+                        </nav></div></div>
+            <div class="col-sm-9">
+                <!--Nested rows within a column-->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sidebar-content text-white"> <p class="bg-dark" style="padding:25px">FAQs</p></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sidebar-content">
+                            <div class="accordion" id="myAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Where are you located?</button>									
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                        <div class="card-body">
+                                            <p>Huynh is located at 912 Saint Emanuel Street, Houston TX 77003, at McKinney Street, just behind the convention center. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">What are your hours?</button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                                        <div class="card-body">
+                                            <p>Huynh is open Monday-Thursday from 11 to 9:00;
+                                                Friday & Saturday from 11 to 10:00.
+                                                Closed on Sunday, and Tuesdays from 3-5.
+                                                Kitchen "last call" is 15 minutes prior to closing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">Do you serve alcohol?</button>                     
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                        <div class="card-body">
+                                            <p>Huynh does not serve any alcohol, however we are BYOB so feel free to bring your own beer or wine for only a $2.50 per person.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion" id="myAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">Do you take reservations??</button>							
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                            <div class="card-body">
+                                                <p>Yes, Huynh takes reservations for parties of 6 or more. Reserved tables are only held for 10 minutes past the time. We do not seat incomplete parties. For reservations, please call 713-224-8964 (713-22-HUYNH).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFive">Do you have a private room?</button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                                            <div class="card-body">
+                                                <p>Huynh does not have a private room but we do have a semi-private section that can seat up to 40 people.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSix">
+                                            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">How do you pronounce Huynh? </button>                     
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                            <div class="card-body">
+                                                <p>Kind of like "win" but start with an H-sound... "Hwin"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion" id="myAccordion">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingSeven">
+                                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">Can you accomodate special dietary requests?</button>	
+                                            </h2>
+                                            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                                <div class="card-body">
+                                                    <p>Since our food is made fresh when you order it, we can usually accommodate special requests.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingEight">
+                                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseEight">Is this the same restaurant as the old Pho Huynh that used to be in Midtown on Milam?</button>
+                                            </h2>
+                                            <div id="collapseEight" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                                                <div class="card-body">
+                                                    <p>Yep, that was us. We moved to our new, bigger, EaDo location in 2008.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingNine">
+                                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">What part of Vietnam is the family from?</button>                     
+                                            </h2>
+                                            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                                <div class="card-body">
+                                                    <p>Our family lived in Central Vietnam, in the city of Quang Ngai, until 1990.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<div class="footer">
+    <footer class="justify-content-center">
+        <p class="bg-dark text-white fw-lighter" style="padding:18px">
+        Quyana Barrow 2022</p>
+    </footer>
+</div>
+</html>
